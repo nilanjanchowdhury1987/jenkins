@@ -1,2 +1,2 @@
-FROM nilanjanchowdhury1987/apache
+FROM hshar/webapp
 ADD . /var/www/html
