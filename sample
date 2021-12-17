@@ -1,4 +1,4 @@
 sudo docker rm -f $(sudo docker ps -a -q)
 sudo docker rmi $(sudo docker image ls -q)
-sudo docker build -t website /home/ubuntu/jenkins/workspace/git_copy_file
+sudo docker build -t website /home/ubuntu/jenkins/workspace/pipeline1
 sudo docker run -itd --name webcontainer -p 80:80 website
