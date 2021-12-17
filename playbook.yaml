@@ -7,4 +7,4 @@
    - name: "copy from source to destination"
      ansible.builtin.copy:
       src: /home/ubuntu/jenkins/workspace/build_jenkins/*
-      dest: /home/ubuntu/docker/
+      dest: /home/ubuntu/docker/*
