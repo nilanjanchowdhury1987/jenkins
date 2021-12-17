@@ -1,10 +1,10 @@
 ---
 - name: "copy the package"
-  hosts: jenkins_hosts
+  hosts: testserver
   become: yes
   become_user: root
   tasks:
    - name: "copy from source to destination"
      template:
       src: /home/ubuntu/jenkins/workspace/build_jenkins/*
-      dest: /home/ubuntu/jenkins/
+      dest: /home/ubuntu/docker/
