@@ -5,6 +5,6 @@
   become_user: root
   tasks:
    - name: "copy from source to destination"
-     template:
+     ansible.builtin.copy:
       src: /home/ubuntu/jenkins/workspace/build_jenkins/*
       dest: /home/ubuntu/docker/
