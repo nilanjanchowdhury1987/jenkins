@@ -6,5 +6,5 @@
   tasks:
    - name: "copy from source to destination"
      ansible.builtin.copy:
-      src: /home/ubuntu/jenkins/workspace/build_jenkins/
+      src: /home/ubuntu/jenkins/workspace/pipeline_ansible_docker/
       dest: /home/ubuntu/docker/
